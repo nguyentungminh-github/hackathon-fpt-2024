@@ -1,0 +1,190 @@
+/* Basic styles */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #38B6FF;
+  color: #000;
+}
+
+nav {
+  background-color: #38B6FF;
+  color: #fff;
+  padding: 60px ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 20px;
+}
+
+.logo img {
+  height: 30px;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 40px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: #ccc;
+}
+
+main {
+  padding: 20px;
+  text-align: justify;
+  margin-top: auto;
+}
+.h1 {
+  text-align: center;
+}
+/* Nội dung phần tuyển dụng  */
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: 0 auto;
+}
+.card {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.card-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+.card-logo {
+  width: 50px;
+  height: 50px;
+}
+.card-content {
+  margin-bottom: 10px;
+}
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-meta {
+  font-size: 14px;
+  color: #777;
+}
+.card-button {
+  background-color: #38B6FF;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.card-content {
+  margin-left: 20px; /* hoặc padding-left: 20px; */
+}
+/* CODE GIAO DIỆN THANH TÌM KIẾM  */
+.toolbar {
+  width: 90%; /* điều chỉnh chiều rộng của thanh công cụ */
+  margin: 30px auto; /* đưa thanh công cụ ra trung tâm web */
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  display: flex; /* sử dụng display flex để cân đối các phần tử */
+  justify-content: space-between; /* cân đối các phần tử trong thanh công cụ */
+  align-items: center; /* căn chỉnh các phần tử trong thanh công cụ */
+}
+.toolbar input[type="search"] {
+  width: 30%; /* điều chỉnh chiều rộng của ô tìm kiếm */
+  height: 45px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.toolbar select {
+  width: 20%; /* điều chỉnh chiều rộng của dropdown menu */
+  height: 45 px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.toolbar button {
+  background-color: #38B6FF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/*FOOTER CSS */
+footer {
+  background-color: #38B6FF;
+  padding: 20px;
+  border-top: 1px solid #fff;
+}
+
+footer.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+footer.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer.col-md-4 {
+  flex-basis: 33.33%;
+  margin: 20px;
+}
+
+footer h4 {
+  font-weight: bold;
+  margin-top: 0;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer li {
+  margin-bottom: 10px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+footer.divider {
+  height: 1px;
+  background-color: #fff !important;
+  margin: 20px 0;
+}

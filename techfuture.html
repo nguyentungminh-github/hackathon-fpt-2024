@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="techfuture.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TECHFUTURE AI - GIẢI PHÁP CÔNG NGHỆ TÌM KIẾM VIỆC LÀM</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- CSS của Bootstrap -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<!-- JavaScript của Bootstrap (bao gồm cả jQuery) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="tech.js"></script>
+</head>
+<body>
+  <!-- Giao diện HTML -->
+  <nav class="navbar">
+    <div class="logo">
+      <h5>TECHFUTURE AI </h5>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#"><b>Home</b></a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">Blog</a></li>
+    </ul>
+  </nav>
+  <!-- Ảnh -->
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="cv.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="ppa.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+  </div>
+  <!-- TÌM KIẾM -->
+  <div class="toolbar">
+    <input type="search" placeholder="Vị trí tuyển dụng" />
+    <select>
+      <option value="">Hải Phòng</option>
+      <option value="">Hà Nội</option>
+      <option value="">Đà Nẵng</option>
+      <!-- add more options here -->
+    </select>
+    <select>
+      <option value="">Tất cả kinh nghiệm</option>
+      <option value="">Dưới 1 năm</option>
+      <option value="">1-2 năm</option>
+      <option value="">2-5 năm</option>
+      <!-- add more options here -->
+    </select>
+    <select>
+      <option value="">Tất cả mức lương</option>
+      <option value="">Dưới 10 triệu</option>
+      <option value="">10-20 triệu</option>
+      <option value="">20-50 triệu</option>
+      <!-- add more options here -->
+    </select>
+    <button>Tìm kiếm</button>
+  </div>
+  <!--Chương trình chính-->
+  <div class="container">
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title">NHÂN VIÊN KINH DOANH DỊCH VỤ VIỄN THÔNG (HÀ NỘI)</div>
+        <img src="fpt telecom.png" alt="Elentec Logo" class="card-logo">
+      </div>
+      <div class="card-content">
+        Công ty cổ phần viễn thông FPT (FPT Telecom)
+      </div>
+      <div class="card-footer">
+        <div class="card-meta"> 8,000,000 - 20,000,000 VND/ Nhân viên</div>
+        <div class="card-meta"> Kinh nghiệm : 3 năm </div>
+        <button class="card-button">Xem thêm </button>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title">KỸ THUẬT VIÊN PHẦN MỀM (HẢI PHÒNG )</div>
+        <img src="Techimg.png" alt="Ecoba Logo" class="card-logo">
+      </div>
+      <div class="card-content">
+        HỆ THỐNG TÌM KIẾM VIỆC LÀM TECHFUTURE AI 
+      </div>
+      <div class="card-footer">
+        <div class="card-meta"> 1 bát phở / Được thi đấu Hackathon</div>
+        <div class="card-meta">Kinh nghiệm : Không yêu cầu </div>
+        <button class="card-button">Xem thêm</button>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title">C++ ENGINEER </div>
+        <img src="fs.png" alt="Pasteur Logo" class="card-logo">
+      </div>
+      <div class="card-content">
+        Công Ty Cổ Phần FPT Software (Danang)
+      </div>
+      <div class="card-footer">
+        <div class="card-meta"> Thoả Thuận | Nhân viên</div>
+        <div class="card-meta">Kinh nghiệm : 3 năm</div>
+        <button class="card-button">Xem thêm</button>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title">IT Network</div>
+        <img src="fs.png" alt="Prudential Logo" class="card-logo">
+      </div>
+      <div class="card-content">
+        Công Ty Cổ Phần FPT Software (Hà Nội)
+      </div>
+      <div class="card-footer">
+        <div class="card-meta">Thoả Thuận | Nhân viên</div>
+        <div class="card-meta">Kinh nghiệm : 1 năm </div>
+        <button class="card-button">Xem thêm</button>
+      </div>
+    </div>
+  </div>
+  <!--CODE AI -->
+  <script src="https://sf-cdn.coze.com/obj/unpkg-va/flow-platform/chat-app-sdk/0.1.0-beta.2/libs/oversea/index.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      new CozeWebSDK.WebChatClient({
+        config: {
+          bot_id: '7374607290696990728',
+        },
+        componentProps: {
+          title: 'TECHFUTURE AI',
+        },
+      });
+    });
+  </script>
+  <!-------------------FOOTER---------------->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h4 style="color :#fff"> VỀ CHÚNG TÔI </h4>
+          <ul>
+            <li><a href="#">ABOUT </a></li>
+            <li><a href="#">HOME </a></li>
+            <li><a href="#">SERVICES</a></li>
+            <li><a href="#">CONTACTS</a></li>
+            <li><a href="#">BLOG</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h4 style="color :#fff" >LIÊN HỆ </h4>
+          <ul>
+            <li><a href="#">nguyentungminh30163@gfpt.edu.vn</a></li>
+            <li><a href="#">hungpcsfhp30121@fpt.edu.vn</a></li>
+            <li><a href="#">anhdndfhp30005@fpt.edu.vn </a></li>
+            <li><a href="#">hoanphuc135@gmail.com</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h4 style="color :#fff">BẢN QUYỀN</h4>
+          <ul>
+            <li><a href="#"> © Bản quyền  thuộc về Techfuture <br>
+              © Copyright by Techfuture  ☞ Do not copy</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
